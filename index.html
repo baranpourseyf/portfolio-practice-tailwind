@@ -3,7 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Barbod | Portfolio</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+
+  <body class="bg-[#111] text-white font-[Poppins]">
+    <!-- HEADER -->
+    <header class="w-full bg-black sticky top-0 z-[999]">
+      <nav class="flex items-center justify-between max-w-[1000px] mx-auto py-4 px-6">
+        <a href="#">
+          <img src="Images/icons/Header Logo.svg" />
+        </a>
+
+        <div class="flex gap-6">
+          <a href="#home" class="text-gray-300 hover:text-white">Home</a>
+          <a href="#projects" class="text-gray-300 hover:text-white">Projects</a>
+          <a href="#experience" class="text-gray-300 hover:text-white">Experience</a>
+          <a href="#contact" class="text-gray-300 hover:text-white">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="text-center py-16 px-6">
+      <div class="flex justify-center relative">
+        <img src="Images/Avatar/Avatar.png" class="absolute" />
+        <img src="Images/Avatar/Avatar Background.png" />
+      </div>
+
+      <h1 class="text-3xl font-bold mt-6">
+        I do code and
+        <br />
+        <span class="font-bold">
+          make content
+          <span
+            class="bg-gradient-to-r from-[#ff8660] to-[#9a33ff] bg-clip-text text-transparent">
+            about it!
+          </span>
+        </span>
+      </h1>
+
+      <p class="text-gray-400 max-w-[475px] mx-auto mt-4">
+        I am a seasoned full-stack software engineer with over 8 years of professional
+        experience, specializing in backend development. My expertise lies in crafting
+        robust and scalable SaaS-based architectures on the Amazon AWS platform.
+      </p>
+
+      <div class="mt-6 flex justify-center gap-4">
+        <a
+          href="#contact"
+          class="bg-white text-black px-5 py-2 rounded-full border-2 border-white">
+          Get In Touch
+        </a>
+        <a
+          href="PDFs/Example CV.pdf"
+          class="px-5 py-2 rounded-full border-2 border-white">
+          Download CV
+        </a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="text-center py-12 px-6">
+      <h2 class="text-gray-400 font-light tracking-[0.25rem]">Experience With:</h2>
+
+      <div class="flex justify-center gap-16 mt-6">
+        <img src="Images/Icons/javascript.png" class="w-[42px]" />
+        <img src="Images/Icons/nodejs.png" class="w-[42px]" />
+        <img src="Images/Icons/html.png" class="w-[37px]" />
+        <img src="Images/Icons/css.png" class="w-[37px]" />
+        <img src="Images/Icons/reactjs.png" class="w-[47px]" />
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="text-center py-12 px-6">
+      <h2 class="text-[#ff8660] font-extrabold text-3xl">Projects</h2>
+
+      <div class="flex justify-center gap-6 flex-wrap mt-6">
+        <!-- Card 1 -->
+        <div class="w-[300px] bg-[#1a1a1a] rounded-lg overflow-hidden">
+          <img src="Images/Thumbnails/project-thumbnail-1.png" class="w-full" />
+          <h3 class="text-xl font-semibold mt-4">HTML Tutorial</h3>
+          <a href="#" class="block text-blue-400 my-4 hover:underline">Visit Project →</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="w-[300px] bg-[#1a1a1a] rounded-lg overflow-hidden">
+          <img src="Images/Thumbnails/project-thumbnail-2.png" class="w-full" />
+          <h3 class="text-xl font-semibold mt-4">CSS Tutorial</h3>
+          <a href="#" class="block text-blue-400 my-4 hover:underline">Visit Project →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="text-center py-12 px-6">
+      <h2 class="text-[#2a79f0] font-extrabold text-3xl">Experience</h2>
+
+      <!-- Job 1 -->
+      <div class="max-w-[600px] mx-auto text-left mt-10">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img src="Images/Icons/google-logo.png" class="w-[42px]" />
+            <h3 class="mt-2">Lead Software Engineer at Google</h3>
+          </div>
+          <span class="mt-2">Nov 2019 – Present</span>
+        </div>
+        <p class="mt-2">
+          Developing innovative solutions for Google’s core search algorithms.
+        </p>
+      </div>
+  </body>
 </html>

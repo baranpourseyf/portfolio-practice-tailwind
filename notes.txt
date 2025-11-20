@@ -1,0 +1,52 @@
+<!--3 Parts-->\
+
+      <!-- Job 2 -->
+      <!-- <div class="max-w-[600px] mx-auto text-left mt-10">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img src="Images/Icons/Apple.png" class="w-[42px]" />
+            <h3 class="mt-2">Junior Software Engineer at Apple</h3>
+          </div>
+          <span class="mt-2">Jan 2016 – Dec 2017</span>
+        </div>
+        <p class="mt-2">
+          Responsible for designing scalable systems and leading a cross-functional team.
+        </p>
+      </div> -->
+
+      <!-- Job 3 -->
+      <!-- <div class="max-w-[600px] mx-auto text-left mt-10">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img src="Images/Icons/meta-logo.png" class="w-[42px]" />
+            <h3 class="mt-2">Software Engineer at Meta</h3>
+          </div>
+          <span class="mt-2">Jan 2016 – Dec 2017</span>
+        </div>
+        <p class="mt-2">
+          Worked on large-scale backend systems supporting millions of users.
+        </p>
+      </div>
+    </section> -->
+
+    <!-- FOOTER -->
+    <!-- <footer id="contact" class="bg-black text-center py-12 px-6">
+      <h2 class="text-3xl font-bold">Contact</h2>
+      <p class="mt-4 max-w-[500px] mx-auto">
+        Seasoned Full Stack Engineer with over 8 years of hands-on experience building
+        scalable web solutions.
+      </p>
+
+      <p class="mt-4 flex justify-center items-center gap-2">
+        <img src="Images/Icons/Email Icon.png" class="w-[22px]" />
+        <a href="mailto:abmcodehub@gmail.com" class="hover:underline">
+          abmcodehub@gmail.com
+        </a>
+      </p>
+
+      <div class="flex justify-center gap-6 mt-6">
+        <a href="#"><img src="Images/Icons/Instagram.png" class="w-[25px]" /></a>
+        <a href="#"><img src="Images/Icons/x.png" class="w-[25px]" /></a>
+        <a href="#"><img src="Images/Icons/Youtube.png" class="w-[25px]" /></a>
+      </div>
+    </footer> -->
