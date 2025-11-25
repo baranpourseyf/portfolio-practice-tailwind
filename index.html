@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbod | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,15 +13,21 @@
   <body class="bg-[#111] text-white font-[Poppins]">
     <!-- HEADER -->
     <header class="w-full bg-black sticky top-0 z-[999]">
-      <nav class="flex items-center justify-between max-w-[1000px] mx-auto py-4 px-6">
+      <nav
+        class="flex items-center justify-between max-w-[1000px] mx-auto py-4 px-6"
+      >
         <a href="#">
           <img src="Images/icons/Header Logo.svg" />
         </a>
 
-        <div class="flex gap-6">
+        <div class="flex gap-6 text-[15px] text-semibold">
           <a href="#home" class="text-gray-300 hover:text-white">Home</a>
-          <a href="#projects" class="text-gray-300 hover:text-white">Projects</a>
-          <a href="#experience" class="text-gray-300 hover:text-white">Experience</a>
+          <a href="#projects" class="text-gray-300 hover:text-white"
+            >Projects</a
+          >
+          <a href="#experience" class="text-gray-300 hover:text-white"
+            >Experience</a
+          >
           <a href="#contact" class="text-gray-300 hover:text-white">Contact</a>
         </div>
       </nav>
@@ -33,41 +40,51 @@
         <img src="Images/Avatar/Avatar Background.png" />
       </div>
 
-      <h1 class="text-3xl font-bold mt-6">
+      <h1 class="text-[55px] mt-6 font-extrabold-800">
         I do code and
         <br />
-        <span class="font-bold">
+        <span>
           make content
           <span
-            class="bg-gradient-to-r from-[#ff8660] to-[#9a33ff] bg-clip-text text-transparent">
+            class="bg-gradient-to-r from-[#ff8660] to-[#9a33ff] bg-clip-text text-transparent"
+          >
             about it!
           </span>
         </span>
       </h1>
 
-      <p class="text-gray-400 max-w-[475px] mx-auto mt-4">
-        I am a seasoned full-stack software engineer with over 8 years of professional
-        experience, specializing in backend development. My expertise lies in crafting
-        robust and scalable SaaS-based architectures on the Amazon AWS platform.
+      <p
+        class="text-[18px] text-light text-gray-400 max-w-[475px] mx-auto mt-4"
+      >
+        I am a seasoned full-stack software engineer with over 8 years of
+        professional experience, specializing in backend development. My
+        expertise lies in crafting robust and scalable SaaS-based architectures
+        on the Amazon AWS platform.
       </p>
 
-      <div class="mt-6 flex justify-center gap-4">
+      <div class="mt-6 flex justify-center gap-4 text-[21.38px] text-semibold">
         <a
           href="#contact"
-          class="bg-white text-black px-5 py-2 rounded-full border-2 border-white">
+          class="bg-white text-black px-5 py-2 rounded-full border-2 border-white"
+        >
           Get In Touch
         </a>
         <a
           href="PDFs/Example CV.pdf"
-          class="px-5 py-2 rounded-full border-2 border-white">
+          class="px-5 py-2 rounded-full border-2 border-white"
+        >
           Download CV
         </a>
       </div>
     </section>
 
     <!-- SKILLS -->
-    <section class="text-center py-12 px-6">
-      <h2 class="text-gray-400 font-light tracking-[0.25rem]">Experience With:</h2>
+    <section class="text-center py-12 px-6 text-[15px] text-semibold">
+      <h2
+        class="text-gray-400 font-light tracking-[0.25rem] text-[20px] text-semibold"
+      >
+        Experience With:
+      </h2>
 
       <div class="flex justify-center gap-16 mt-6">
         <img src="Images/Icons/javascript.png" class="w-[42px]" />
@@ -80,41 +97,130 @@
 
     <!-- PROJECTS -->
     <section id="projects" class="text-center py-12 px-6">
-      <h2 class="text-[#ff8660] font-extrabold text-3xl">Projects</h2>
+      <h2 class="text-[#ff8660] text-[35px] text-extrabold">PROJECTS</h2>
 
       <div class="flex justify-center gap-6 flex-wrap mt-6">
         <!-- Card 1 -->
         <div class="w-[300px] bg-[#1a1a1a] rounded-lg overflow-hidden">
           <img src="Images/Thumbnails/project-thumbnail-1.png" class="w-full" />
-          <h3 class="text-xl font-semibold mt-4">HTML Tutorial</h3>
-          <a href="#" class="block text-blue-400 my-4 hover:underline">Visit Project →</a>
+          <h3 class="text-xl font-semibold mt-4">HTML TUTORIAL</h3>
+          <a href="#" class="block text-blue-400 my-4 hover:underline"
+            >CLICK HERE TO VISIT →</a
+          >
         </div>
 
         <!-- Card 2 -->
         <div class="w-[300px] bg-[#1a1a1a] rounded-lg overflow-hidden">
           <img src="Images/Thumbnails/project-thumbnail-2.png" class="w-full" />
-          <h3 class="text-xl font-semibold mt-4">CSS Tutorial</h3>
-          <a href="#" class="block text-blue-400 my-4 hover:underline">Visit Project →</a>
+          <h3 class="text-xl mt-4">CSS TUTORIAL</h3>
+          <a href="#" class="block text-blue-400 my-4 hover:underline"
+            >CLICK HERE TO VISIT →</a
+          >
         </div>
       </div>
     </section>
 
     <!-- EXPERIENCE -->
     <section id="experience" class="text-center py-12 px-6">
-      <h2 class="text-[#2a79f0] font-extrabold text-3xl">Experience</h2>
+      <h2 class="text-[#2a79f0] text-[35px] text-extrabold">EXPERIENCE</h2>
 
       <!-- Job 1 -->
+
       <div class="max-w-[600px] mx-auto text-left mt-10">
         <div class="flex justify-between items-center">
           <div class="flex items-center gap-2">
             <img src="Images/Icons/google-logo.png" class="w-[42px]" />
-            <h3 class="mt-2">Lead Software Engineer at Google</h3>
+            <h3 class="mt-2 text-[21.74px] text-bold">
+              Lead Software Engineer at Google
+            </h3>
           </div>
-          <span class="mt-2">Nov 2019 – Present</span>
+          <span class="mt-2 text-[14.49px] text-regular text-gray-500"
+            >Nov 2019 – Present</span
+          >
         </div>
-        <p class="mt-2">
-          Developing innovative solutions for Google’s core search algorithms.
+        <p class="mt-2 text-[14.49px] text-regular text-gray-500">
+          As a Senior Software Engineer at Google, I played a pivotal role in
+          developing innovative solutions for Google's core search algorithms.
+          Collaborating with a dynamic team of engineers, I contributed to the
+          enhancement of search accuracy and efficiency, optimizing user
+          experiences for millions of users worldwide.
         </p>
       </div>
+
+      <!-- Job 2-->
+      <div class="max-w-[600px] mx-auto text-left mt-10">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img src="images/Icons/Apple.png" class="w-[42px]" />
+            <h3 class="mt-2 text-[21.74px] text-bold">
+              Junior Software Engineer at Apple
+            </h3>
+          </div>
+          <span class="mt-2 text-[14.49px] text-regular text-gray-500"
+            >Jan 2016 - Dec 2017</span
+          >
+        </div>
+        <p class="mt-2 text-[14.49px] text-regular text-gray-500">
+          During my tenure at Apple, I held the role of Software Architect,
+          where I played a key role in shaping the architecture of
+          mission-critical software projects. Responsible for designing scalable
+          and efficient systems, I provided technical leadership to a
+          cross-functional team.
+        </p>
+      </div>
+
+      <!-- Job 3-->
+      <div class="max-w-[600px] mx-auto text-left mt-10">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img src="images/Icons/meta-logo.png" class="w-[42px]" />
+            <h3 class="mt-2 text-[21.74px] text-bold">
+              Software Engineer at Meta
+            </h3>
+          </div>
+          <span class="mt-2 text-[14.49px] text-regular text-gray-500"
+            >Jan 2017 - Oct 2019</span
+          >
+        </div>
+        <p class="mt-2 text-[14.49px] text-regular text-gray-500">
+          At Meta, I served as a Software Engineer, focusing on the design and
+          implementation of backend systems for the social media giant's dynamic
+          platform. Working on projects that involved large-scale data
+          processing and user engagement features, I leveraged my expertise to
+          ensure seamless functionality and scalability.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="text-center py-12 px-6 max-w-[655px] mx-auto">
+      <h2 class="text-[23.53px] text-bold text-left">Contact</h2>
+      <p
+        class="mt-2 flex text-left items-center gap-2 text-[14.12px] text-light text-gray-500"
+      >
+        <!--mt-4 max-w-[500px] mx-auto-->
+        Seasoned Full Stack Software Engineer with over 8 years of hands-on
+        experience in designing and implementing robust, scalable, and
+        innovative web solutions. Adept at leveraging a comprehensive skill set
+        encompassing front-end and back-end technologies
+      </p>
+
+      <p
+        class="mt-2 flex items-center gap-2 text-[14.12px] text-light text-gray-400"
+      >
+        <img src="Images/Icons/Email Icon.png" class="w-[22px]" />
+        <a href="mailto:abmcodehub@gmail.com" class="hover:underline">
+          abmcodehub@gmail.com
+        </a>
+      </p>
+
+      <div class="flex justify-center gap-6 mt-6">
+        <a href="#"
+          ><img src="Images/Icons/Instagram.png" class="w-[25px]"
+        /></a>
+        <a href="#"><img src="Images/Icons/x.png" class="w-[25px]" /></a>
+        <a href="#"><img src="Images/Icons/Youtube.png" class="w-[25px]" /></a>
+      </div>
+    </footer>
   </body>
 </html>
